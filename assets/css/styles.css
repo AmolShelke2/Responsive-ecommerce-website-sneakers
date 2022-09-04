@@ -330,6 +330,20 @@ img {
   transform: translateY(-0.5rem);
 }
 
+.sneaker__pages {
+  margin-top: var(--mb-6);
+}
+
+.sneaker__page {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--dark-color);
+}
+
+.sneaker__page:hover {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+
 /*===== COLLECTION =====*/
 .collection__container {
   row-gap: 2rem;
