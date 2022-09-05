@@ -553,4 +553,9 @@ img {
   text-align: center;
 }
 
-/* ===== MEDIA QUERIES=====*/ ;
+/* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+}
